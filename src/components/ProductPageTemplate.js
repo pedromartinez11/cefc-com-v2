@@ -23,8 +23,7 @@ const ProductPageTemplate = ({
             <div className="content">
               <div
                 className="full-width-image-container margin-top-0"
-                style={{ backgroundImage: `url(${image})` }}
-              >
+                style={{ backgroundImage: `url(${image})` }}>
                 <h2
                   className="has-text-weight-bold is-size-1"
                   style={{
@@ -32,8 +31,7 @@ const ProductPageTemplate = ({
                     backgroundColor: '#f40',
                     color: 'white',
                     padding: '1rem',
-                  }}
-                >
+                  }}>
                   {title}
                 </h2>
               </div>

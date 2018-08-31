@@ -3,9 +3,7 @@ import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar'
 import './all.sass'
-import ball from '../img/ball.png';
-
-
+import ball from '../img/ball.png'
 
 const TemplateWrapper = ({ children }) => (
   <div>
