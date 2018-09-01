@@ -1,8 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Features from './Features'
-import Testimonials from './Testimonials'
-import Pricing from './Pricing'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Features from './Features';
+import Testimonials from './Testimonials';
+import Pricing from './Pricing';
 
 const ProductPageTemplate = ({
   image,
@@ -101,7 +101,7 @@ const ProductPageTemplate = ({
       </div>
     </div>
   </section>
-)
+);
 
 ProductPageTemplate.propTypes = {
   image: PropTypes.string,
@@ -125,6 +125,6 @@ ProductPageTemplate.propTypes = {
     description: PropTypes.string,
     plans: PropTypes.array,
   }),
-}
+};
 
-export default ProductPageTemplate
+export default ProductPageTemplate;
